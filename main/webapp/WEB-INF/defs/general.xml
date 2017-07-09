@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="common" template="/WEB-INF/layout/classic.jsp">
+    <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+  </definition>
+  
+  <definition name="welcome" extends="common">
+    <put-attribute name="title" value="my title page" />
+    <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
+    <put-attribute name="current" value="welcome" />
+  </definition>
+  
+  <definition name="user" extends="common">
+    <put-attribute name="title" value="my User page" />
+    <put-attribute name="body" value="/WEB-INF/jsp/user.jsp" />
+    <put-attribute name="current" value="user" />
+  </definition>
+  
+   <definition name="detail" extends="common">
+    <put-attribute name="title" value="my Detail page" />
+    <put-attribute name="body" value="/WEB-INF/jsp/detail.jsp" />
+    <put-attribute name="current" value="detail" />
+  </definition>
+  
+   <definition name="view-employee" extends="common">
+    <put-attribute name="title" value="datatable employee" />
+    <put-attribute name="body" value="/WEB-INF/jsp/employee.jsp" />
+    <put-attribute name="current" value="view-employee" />
+  </definition>
+  
+  <definition name="view-denda" extends="common">
+    <put-attribute name="title" value="data Denda" />
+    <put-attribute name="body" value="/WEB-INF/jsp/denda.jsp" />
+    <put-attribute name="current" value="view-denda" />
+  </definition>
+  
+   <definition name="view-listPinjam" extends="common">
+    <put-attribute name="title" value="List Pinjaman" />
+    <put-attribute name="body" value="/WEB-INF/jsp/ListPinjaman.jsp" />
+    <put-attribute name="current" value="view-listPinjam" />
+  </definition>
+  
+</tiles-definitions>

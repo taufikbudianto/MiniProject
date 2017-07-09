@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="com-arrizaqu-crud">
+		<class>com.arrizaqu.crud.entity.User</class>
+		<class>com.arrizaqu.crud.entity.Role</class>
+		<class>com.arrizaqu.crud.entity.Blog</class>
+		<class>com.arrizaqu.crud.entity.Item</class>
+		<class>com.arrizaqu.crud.entity.HeaderDenda</class>
+		<class>com.arrizaqu.crud.entity.DeataiDenda</class>
+		<class>com.arrizaqu.crud.entity.Buku</class>
+		<class>com.arrizaqu.crud.entity.Employee</class>
+		<class>com.arrizaqu.crud.entity.City</class>
+		<class>com.arrizaqu.crud.entity.Anggota</class>
+		<class>com.arrizaqu.crud.entity.ReturnHeader</class>
+		<class>com.arrizaqu.crud.entity.ReturnDetail</class>
+		<class>com.arrizaqu.crud.entity.Iuran</class>
+		<class>com.arrizaqu.crud.entity.HeaderPinjaman</class>
+		<class>com.arrizaqu.crud.entity.BrwDetail</class>
+	</persistence-unit>
+</persistence>
